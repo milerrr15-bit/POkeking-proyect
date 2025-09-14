@@ -1,4 +1,5 @@
 // src/JavaScript/Guides.js
+// Estructura de ejemplo: puedes añadir más entrenadores/pokémon
 const TRAINER_GUIDES = {
   "Alder": {
     "Lucario": {
@@ -7,10 +8,12 @@ const TRAINER_GUIDES = {
       checkAllLabel: "check all teams",
       steps: [
         {
+          // lo que va a la izquierda
           leftMain: "lock rhypherior",
           arrowTo: true,
           highlight: "hydreigon 2+2",
           tags: ["hp cannot low75%"],
+          // lo que va a la derecha
           checkTeam: "check team",
           teamNums: [9]
         },
@@ -31,38 +34,7 @@ const TRAINER_GUIDES = {
           teamNums: [10]
         }
       ]
-    },
-    // NUEVO POKÉMON AÑADIDO A ALDER
-    "Dragonite": {
-      title: "u-turn jellicent trick garchomp 4+1+2",
-      meta: "Alder · Dragonite",
-      checkAllLabel: "check all teams",
-      steps: [
-        {
-          leftMain: "lock jellicent",
-          arrowTo: true,
-          highlight: "dragonite 4+1+2",
-          tags: ["lucario SASH"],
-          checkTeam: "check team",
-          teamNums: [11, 15]
-        },
-        {
-          leftMain: "lock garchomp",
-          arrowTo: true,
-          highlight: "dragonite 3+2",
-          tags: ["multiscale active"],
-          checkTeam: "check team",
-          teamNums: [8, 13]
-        },
-        {
-          leftMain: "lock tyranitar",
-          arrowTo: true,
-          highlight: "dragonite 2+1+1",
-          tags: ["hurricane confusion"],
-          checkTeam: "check team",
-          teamNums: [7, 12]
-        }
-      ]
     }
   }
 };
+
