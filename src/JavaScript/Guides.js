@@ -347,20 +347,8 @@ const TRAINER_GUIDES = {
   "Caitlin": {
     "Togekiss": {
       title: "trick lock nidoqueen excadrill 6+2",
-      meta: "Caitlin · Pokemon",
+      meta: "Caitlin · Togekiss",
       checkAllLabel: "check all teams",
-      steps: [
-        {
-          leftMain: "lock opponent",
-          arrowTo: true,
-          highlight: "move 2+2",
-          tags: ["tag1", "tag2"],
-          checkTeam: "check team",
-          teamNums: [1,2]
-        }
-      ]
     }
   }
 };
-
-export default TRAINER_GUIDES;
