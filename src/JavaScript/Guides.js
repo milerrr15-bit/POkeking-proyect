@@ -362,3 +362,5 @@ const TRAINER_GUIDES = {
     }
   }
 };
+
+export default TRAINER_GUIDES;
