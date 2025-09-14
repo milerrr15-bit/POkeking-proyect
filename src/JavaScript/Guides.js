@@ -33,39 +33,9 @@ const TRAINER_GUIDES = {
           checkTeam: "check team",
           teamNums: [10]
         }
-"Dragonite": {
-      title: "Switch Chandelure",
-      meta: "Alder · Lucario",
-      checkAllLabel: "check all teams",
-      steps: [
-        {
-          // lo que va a la izquierda
-          leftMain: "lock rhypherior",
-          arrowTo: true,
-          highlight: "hydreigon 2+2",
-          tags: ["hp cannot low75%"],
-          // lo que va a la derecha
-          checkTeam: "check team",
-          teamNums: [9]
-        },
-        {
-          leftMain: "lock magnezone",
-          arrowTo: true,
-          highlight: "garchomp 2+1+2",
-          tags: ["earthquake poliwrath sandslash SASH"],
-          checkTeam: "check team",
-          teamNums: [10,12]
-        },
-        {
-          leftMain: "lock sandslash",
-          arrowTo: true,
-          highlight: "garchomp 2+1+2",
-          tags: ["dual chop +earthquake magnezone"],
-          checkTeam: "check team",
-          teamNums: [10]
-        }
       ]
     }
   }
 };
+
 
