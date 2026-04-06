@@ -7,7 +7,7 @@ const TRAINER_GUIDES = {
       checkAllLabel: "check all teams",
       steps: [
         {
-          leftMain: "lock rhypherior",
+          leftMain: "lock rhyperior",
           arrowTo: true,
           highlight: "hydreigon 2+2",
           tags: ["hp cannot low75%"],
@@ -15,3 +15,14 @@ const TRAINER_GUIDES = {
           teamNums: [9]
         },
         {
+          leftMain: "switch chandelure",
+          arrowTo: true,
+          highlight: "shadow ball",
+          tags: ["effective move"],
+          checkTeam: "check team",
+          teamNums: [9]
+        }
+      ]
+    }
+  }
+};
